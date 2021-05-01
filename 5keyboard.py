@@ -37,6 +37,7 @@ while running:
 
         # if keystroke is pressed whether its right or left
         if event.type == pygame.KEYDOWN:
+            print("Key stroke is pressed")
             if event.key == pygame.K_LEFT:
                 print("Left arrow is pressed")
             if event.key == pygame.K_RIGHT:

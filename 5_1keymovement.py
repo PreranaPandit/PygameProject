@@ -40,6 +40,7 @@ while running:
         if event.type == pygame.KEYDOWN:
 
             if event.key == pygame.K_LEFT:
+                # Increase to 0.3 if u want to increase the speed
                 playerX_change = -0.1
             if event.key == pygame.K_RIGHT:
                 playerX_change = 0.1

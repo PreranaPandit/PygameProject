@@ -36,7 +36,7 @@ bulletImg = pygame.image.load('bullet.png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
-bulletY_change = 3
+bulletY_change = 5
 
 # Ready state - you can't see bullet on screen
 # Fire state - bullet moving currently
